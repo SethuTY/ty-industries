@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TY Industries</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f0f2f5;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+
+    nav {
+      background: #0b0f14;
+      color: #fff;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav strong {
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
+
+    nav span {
+      font-size: 14px;
+      opacity: 0.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0b0f14, #2c3e50);
+      color: #fff;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 20px;
+    }
+
+    header p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 70px 20px;
+      background: linear-gradient(135deg, #f4f6f8, #e9edf2);
+      border-radius: 12px;
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 30px;
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .core-logo {
+      width: 80px;
+      height: 80px;
+      object-fit:contain;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: linear-gradient(135deg, #ffffff, #e6eaf0);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    }
+
+    .ceo {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      flex-wrap: wrap;
+      position: relative;
+    }
+
+    .ceo img {
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 12px;
+      background: #ddd;
+    }
+
+    .ceo-logo {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 80px;
+      height: 80px;
+      opacity: 0.1;
+    }
+
+    footer {
+      background: #0b0f14;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 13px;
+      opacity: 0.7;
+    }
+
+    .footer-logo {
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      margin-right: 8px;
+    }
+
+    @media (max-width: 600px) {
+      .ceo-logo {
+        width: 60px;
+        height: 60px;
+      }
+
+      .core-logo {
+        width: 60px;
+        height: 60px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div style="display:flex; align-items:center; gap:10px;">
+      <img src="logo.png" alt="TY Industries Logo" style="width:40px; height:40px; object-fit:cover; border-radius:5px;">
+      <strong>TY INDUSTRIES</strong>
+    </div>
+    <span>Innovating nothing since recently</span>
+  </nav>
+
+  <header>
+    <h1>Welcome to TY Industries</h1>
+    <p>
+      We are dedicated to delivering absolutely nothing at scale.
+      This website exists purely as a professional-looking waste of your time.
+    </p>
+  </header>
+
+  <section>
+    <h2>
+      <img src="logo.png" alt="TY Logo" class="core-logo">
+      Our Core Values
+    </h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Innovation</h3>
+        <p>
+          Constantly redefining what it means to do the bare minimum
+          while still sounding impressive.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Integrity</h3>
+        <p>
+          We are honest about the fact that there is nothing happening here.
+          Transparency is important to us.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Growth</h3>
+        <p>
+          Personal growth. Spiritual growth. Definitely not revenue growth.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>What We Do</h2>
+    <p>
+      TY Industries operates at the intersection of ambition and inactivity.
+      We provide no services, ship no products, and solve no real-world problems.
+      Despite this, we remain confident in our vision.
+    </p>
+  </section>
+
+  <section>
+    <h2>Leadership</h2>
+    <div class="ceo">
+      <img src="ceo.jpg" alt="CEO of TY Industries">
+      <img src="logo.png" alt="TY Industries Logo" class="ceo-logo">
+      <div>
+        <p><strong>Sethu J. Hlatshwayo</strong><br>Chief Executive Officer</p>
+        <p>
+          Founded TY Industries after realizing that sounding corporate
+          is significantly easier than being corporate.
+          Brings strong opinions, minimal planning, and unmatched commitment
+          to jokes that have gone too far.
+        </p>
+        <p>
+          Under his leadership, TY Industries has achieved zero milestones
+          and plans to maintain that trajectory indefinitely.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Careers</h2>
+    <p>
+      Thank you for your interest in joining TY Industries.  
+      Unfortunately, all positions are currently filled… by absolutely nobody.  
+      Applications are not reviewed, ignored, or possibly eaten by a very hungry cat.
+    </p>
+    <p>
+      However, we are currently looking for a <strong>Technical Director</strong>.  
+      Responsibilities include doing absolutely nothing while sounding very important.
+    </p>
+  </section>
+
+  <section>
+    <h2>Investors</h2>
+    <p>
+      TY Industries is not currently accepting investors.  
+      Please direct your enthusiasm, money, and hopes elsewhere.  
+      Any inquiries will be met with polite silence.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>
+      Need to reach TY Industries? That’s cute.  
+      No emails are checked, no phones are answered, and no messages are read.  
+      For urgent matters, consider staring at this website until clarity emerges.
+    </p>
+  </section>
+
+  <footer>
+    <img src="logo.png" alt="TY Industries Logo" class="footer-logo">
+    © TY Industries — All rights reserved (somehow)
+  </footer>
+
+</body>
+</html>
